@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Janela_menu</class>
+ <widget class="QMainWindow" name="Janela_menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1189</width>
+    <height>851</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget_logo" native="true">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>11</y>
+      <width>401</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/logono3/no3.png);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_creditos" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>770</y>
+      <width>1171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_creditos">
+         <property name="styleSheet">
+          <string notr="true">font: 63 10pt &quot;Yu Gothic UI Semibold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Desenvolvido por Tiago Moreira Pimentel, Cel: (11)9 4709-6148 </string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_titulo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>431</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_titulo">
+       <item>
+        <widget class="QLabel" name="label_titulo">
+         <property name="styleSheet">
+          <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(7, 31, 255);</string>
+         </property>
+         <property name="text">
+          <string>Senhas Linx - NO3</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_botao_sair">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>690</y>
+      <width>1171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_7">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout__botao_sair">
+       <property name="leftMargin">
+        <number>500</number>
+       </property>
+       <property name="rightMargin">
+        <number>500</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="pushButton_botao_sair">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 149, 165);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Fechar</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTabWidget" name="pasta_sistemas">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>179</y>
+      <width>1151</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Rounded</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="elideMode">
+     <enum>Qt::ElideNone</enum>
+    </property>
+    <property name="usesScrollButtons">
+     <bool>true</bool>
+    </property>
+    <property name="documentMode">
+     <bool>false</bool>
+    </property>
+    <property name="tabsClosable">
+     <bool>false</bool>
+    </property>
+    <property name="movable">
+     <bool>false</bool>
+    </property>
+    <property name="tabBarAutoHide">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Geral</string>
+     </attribute>
+     <layout class="QVBoxLayout" name="verticalLayout_24">
+      <item>
+       <widget class="QFrame" name="frame_base_geral">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_loginftp">
+           <item>
+            <widget class="QLabel" name="label_loginftp">
+             <property name="styleSheet">
+              <string notr="true">font: 75 25pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Acesso FTP / LZT</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_senhaftp_8">
+           <property name="leftMargin">
+            <number>400</number>
+           </property>
+           <property name="rightMargin">
+            <number>400</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="pushButton_loginftp_geral">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+             </property>
+             <property name="text">
+              <string>autosystem</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_senhaftp_geral">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+             </property>
+             <property name="text">
+              <string>lzt3900</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_cnpj1">
+           <item>
+            <widget class="QLabel" name="label_cnpj">
+             <property name="styleSheet">
+              <string notr="true">font: 75 25pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>CNPJ's usados com frequência</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_cnpj2">
+           <property name="leftMargin">
+            <number>400</number>
+           </property>
+           <property name="rightMargin">
+            <number>400</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="pushButton_cnpj1_geral">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+             </property>
+             <property name="text">
+              <string>NO3 - 19.530.107/0001-70</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_cnpj2_geral">
+             <property name="styleSheet">
+              <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+             </property>
+             <property name="text">
+              <string>LINX - 54.517.628/0001.98</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Emporio</string>
+     </attribute>
+     <widget class="QFrame" name="frame_base_emporio">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>11</y>
+        <width>1123</width>
+        <height>455</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_8">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_loginftp_10">
+         <item>
+          <widget class="QLabel" name="label_titulo_emporio">
+           <property name="styleSheet">
+            <string notr="true">font: 75 25pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>Acesso PDV</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_acessopdv_emporio">
+         <property name="leftMargin">
+          <number>400</number>
+         </property>
+         <property name="rightMargin">
+          <number>400</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pushButton_loginPDV_emporio">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>Linx</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_senhaPDV_emporio">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>Senha do dia LZT</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_cnpj1_10">
+         <item>
+          <widget class="QLabel" name="label_emporio">
+           <property name="styleSheet">
+            <string notr="true">font: 75 25pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>Acesso nos Ambientes Empório</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_ambientes_emporio">
+         <property name="leftMargin">
+          <number>400</number>
+         </property>
+         <property name="rightMargin">
+          <number>400</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pushButton_loginambientes_emporio">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>Config</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_senhaambientes_emporio">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>@linxstoneco</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_22">
+         <item>
+          <widget class="QLabel" name="label_emporio_fiscalflow">
+           <property name="styleSheet">
+            <string notr="true">font: 75 25pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>Acesso Fiscal Flow</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_23">
+         <property name="leftMargin">
+          <number>400</number>
+         </property>
+         <property name="rightMargin">
+          <number>400</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pushButton_emailfiscalflow_emporio">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>cnpj.portal.01</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_senhafiscalflow_emporio">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>@123456</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>AutoSystem</string>
+     </attribute>
+     <widget class="QFrame" name="frame_base_autosystem">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>11</y>
+        <width>1123</width>
+        <height>455</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_25">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_loginftp_11">
+         <item>
+          <widget class="QLabel" name="label_titulo_autosystem">
+           <property name="styleSheet">
+            <string notr="true">font: 75 25pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>Senha para acessar o Config_Local</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_asconfigautosystem">
+         <property name="leftMargin">
+          <number>400</number>
+         </property>
+         <property name="rightMargin">
+          <number>400</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pushButton_senhaConfigLocal_autosystem">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>asconfig007</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>PostoFacil</string>
+     </attribute>
+     <widget class="QFrame" name="frame_base_postofacil">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>11</y>
+        <width>1123</width>
+        <height>455</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_26">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_loginftp_12">
+         <item>
+          <widget class="QLabel" name="label_titulopdvpostofacil">
+           <property name="styleSheet">
+            <string notr="true">font: 75 25pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>Acesso so PDV</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_pdv_postofacil">
+         <property name="leftMargin">
+          <number>400</number>
+         </property>
+         <property name="rightMargin">
+          <number>400</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pushButton_loginpdv_postofacil">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>intercamp</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_senhapdv_postofacil">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>masterkey</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_cnpj1_11">
+         <item>
+          <widget class="QLabel" name="label_senhadiariapostofacil">
+           <property name="styleSheet">
+            <string notr="true">font: 75 25pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>Senha Diaria</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_senhadiaria_postofacil">
+         <property name="leftMargin">
+          <number>400</number>
+         </property>
+         <property name="rightMargin">
+          <number>400</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pushButton_senhaDiaria_postofacil">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(0, 255, 127);</string>
+           </property>
+           <property name="text">
+            <string>Senha Dinamica</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_img_fundo" native="true">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>20</y>
+      <width>691</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/img_fundo/Captura de tela 2023-03-07 163301.png);</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../ProjetoSenhasLinx/Imagens/logo.qrc"/>
+  <include location="../ProjetoSenhasLinx/Imagens/fundo.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_botao_sair</sender>
+   <signal>clicked()</signal>
+   <receiver>Janela_menu</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>595</x>
+     <y>724</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>594</x>
+     <y>425</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
