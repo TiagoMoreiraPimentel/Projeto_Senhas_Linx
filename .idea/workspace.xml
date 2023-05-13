@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8453e7b-1009-4455-ae96-a23a0c50b656" name="Changes" comment="" />
+    <list default="true" id="7dbe54c5-4fbc-4977-a547-c69ad9246b65" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Projeto_Senhas_Linx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Projeto_Senhas_Linx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoSenhasLinx/Interface/interface_senhas_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoSenhasLinx/Interface/interface_senhas_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QT designer/interface_senhas_menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QT designer/interface_senhas_menu.ui" beforeDir="false" afterPath="$PROJECT_DIR$/QT designer/interface_senhas_menu.ui" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +21,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Pk6hUSPCBuoEFPaZraYjuhqUcd" />
+  <component name="ProjectId" id="2Pke29K8MeG56wm9NqnUE7ahh9x" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,17 +30,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/nitro/Desktop/SERVIDOR GITHUB/Projeto_Senhas_Linx"
+    "last_opened_file_path": "C:/Users/nitro/Desktop/SERVIDOR GITHUB/Projeto_Senhas_Linx/ProjetoSenhasLinx/venv",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c8453e7b-1009-4455-ae96-a23a0c50b656" name="Changes" comment="" />
-      <created>1683988852966</created>
+      <changelist id="7dbe54c5-4fbc-4977-a547-c69ad9246b65" name="Changes" comment="" />
+      <created>1684005297993</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683988852966</updated>
+      <updated>1684005297993</updated>
     </task>
     <servers />
   </component>
